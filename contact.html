@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-Hant" id="top">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101726">
+  <meta name="description" content="持續創作、練習場景與更新作品網站。透過示範留言表單預覽交流內容。">
+  <title>未來規劃與聯絡我｜霞冬 XIADONG</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body data-page="contact">
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="topbar">
+    <div class="shell navigation">
+      <a class="brand" href="index.html" aria-label="霞冬，回到首頁"><span class="brand-star"
+          aria-hidden="true">✦</span><span><strong>霞冬<span class="brand-english">XIADONG</span></strong><small>PERSONAL
+            ARCHIVE</small></span></a>
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false"><span class="menu-icon"
+          aria-hidden="true"><i></i><i></i></span><span class="menu-label">選單</span></button>
+      <nav id="main-nav" class="nav-links" aria-label="主要導覽"><a href="index.html"><span>首頁</span></a><a
+          href="about.html"><span>關於我</span></a><a href="interests.html"><span>興趣與專長</span></a><a
+          href="works.html"><span>作品集</span></a><a href="contact.html" aria-current="page"><span>規劃與聯絡</span></a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="shell section-space-bottom">
+      <div class="page-heading">
+        <div class="eyebrow"><span class="tiny-star" aria-hidden="true">✧</span> 04 / NEXT CHAPTER & CONTACT</div>
+        <h1>為下一步，<em>留一點期待。</em></h1>
+        <p class="page-intro">繼續畫、繼續學，也繼續記錄那些慢慢成形的想法。</p>
+      </div>
+      <section class="goals-section" aria-labelledby="goals-title">
+        <div class="goals-intro">
+          <div class="eyebrow">A PLAN TO KEEP CREATING</div>
+          <h2 id="goals-title">我的下一步</h2>
+          <p>把想做的事拆成小小的行動，讓創作慢慢往前走。</p><span class="draft-label">可調整的規劃草稿</span>
+        </div>
+        <ol class="goals-list">
+          <li><span class="goal-index">01</span>
+            <div>
+              <div class="goal-top">
+                <h3>讓角色更有生命力</h3><span>每週練習</span>
+              </div>
+              <p>每週安排 2 次角色速寫，觀察動作與表情；每月選一張完成上色，保留修改前後的比較。</p>
+            </div>
+          </li>
+          <li><span class="goal-index">02</span>
+            <div>
+              <div class="goal-top">
+                <h3>把故事放進完整場景</h3><span>下一件作品</span>
+              </div>
+              <p>從一張光影草圖開始，練習前景、中景與背景，把角色、環境和氣氛安排在同一個畫面。</p>
+            </div>
+          </li>
+          <li><span class="goal-index">03</span>
+            <div>
+              <div class="goal-top">
+                <h3>持續更新作品網站</h3><span>每月整理</span>
+              </div>
+              <p>每月補上一件作品或一則練習紀錄，寫下工具、製作過程與心得，並檢查手機上的閱讀效果。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+      <section class="contact-section section-space" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <div class="eyebrow">LEAVE A LITTLE NOTE</div>
+          <h2 id="contact-title">謝謝你，<br>來到我的小小世界。</h2>
+          <p>如果這裡有讓你停下腳步的作品，<br>歡迎試著留下一句話。</p>
+          <div class="contact-star" aria-hidden="true">✧</div>
+          <p class="note">目前以示範留言表單呈現互動。<br>公開電子信箱與社群連結將於確認後補上。</p>
+        </div>
+        <div class="contact-form-panel">
+          <div class="demo-label"><span aria-hidden="true">◌</span> 示範表單，無寄送功能</div>
+          <form id="contact-form">
+            <div class="field"><label for="visitor">你的稱呼 <span>必填</span></label><input id="visitor" type="text" required
+                maxlength="40" placeholder="怎麼稱呼你？" autocomplete="off"></div>
+            <div class="field"><label for="message">想說的話 <span>必填</span></label><textarea id="message" required rows="5"
+                maxlength="500" placeholder="聊聊喜歡的作品，或想分享的靈感……" aria-describedby="message-count"></textarea><span
+                class="character-count" id="message-count">0 / 500</span></div>
+            <div class="form-actions"><button class="btn primary" id="preview-message" type="submit" disabled>預覽留言 <span
+                  aria-hidden="true">↗</span></button><button class="btn quiet" type="reset">清除</button></div><noscript>
+              <p class="note">請開啟 JavaScript 才能使用留言預覽。此表單沒有寄送功能。</p>
+            </noscript>
+            <div id="message-preview" class="message-preview" role="status" aria-live="polite" hidden>
+              <p class="preview-status">留言預覽完成，內容沒有寄出。</p><strong id="preview-author"></strong>
+              <p id="preview-content"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="shell footer-inner"><a class="footer-name" href="index.html"><span aria-hidden="true">✦</span>
+        徐嬋諭・霞冬</a>
+      <p>以自己的步調，持續創作。</p><span class="copyright">© 2026 XIADONG</span><a class="back-top" href="#top"
+        aria-label="回到頁面頂端">回到頂端 <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+  <dialog class="art-dialog" id="artwork-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top">
+      <div><span id="dialog-count" class="eyebrow"></span>
+        <h2 id="dialog-title"></h2>
+      </div><button class="icon-button dialog-close" type="button" aria-label="關閉作品放大視窗">×</button>
+    </div>
+    <div class="dialog-image-wrap"><img id="dialog-image" src="work1.jpg" alt=""></div>
+    <div class="dialog-bottom">
+      <p id="dialog-description"></p>
+      <div class="dialog-controls"><button class="btn small" type="button" id="previous-art" aria-label="上一件作品">←
+          上一件</button><button class="btn small" type="button" id="next-art" aria-label="下一件作品">下一件 →</button></div>
+    </div>
+  </dialog>
+</body>
+
+</html>
